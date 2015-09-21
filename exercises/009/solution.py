@@ -6,5 +6,4 @@ the small planet of Naboo. While the congress of the Republic\
 endlessly debates this alarming chain of events, the Supreme\
 Chancellor has secretly dispatched two Jedi Knights, the guardians of\
 peace and justice in the galaxy, to settle the conflict"""
-s = len(phantom_menace)
-print(s)
+print(len(phantom_menace))
