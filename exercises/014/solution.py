@@ -1,5 +1,5 @@
 import sys
 if len(sys.argv) == 1:
-    print("solution.py PARAM")
+    print("usage: python3 solution.py PARAM")
 else:
     print(sys.argv[1])
