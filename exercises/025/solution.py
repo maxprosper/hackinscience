@@ -1,8 +1,5 @@
 import datetime
-a = datetime.datetime.now().year
-b = datetime.datetime.now().month
-c = datetime.datetime.now().day
-d = datetime.datetime.now().hour
-e = datetime.datetime.now().minute
-f = datetime.datetime.now().second
-print('Today is ', a, '-', b, '-', c, ' and it is ', d, ':', e, ':', f, sep='')
+b = datetime.datetime.now()
+c = b.strftime("%Y-%m-%d")
+d = b.strftime("%H:%M:%S")
+print('Today is', c, 'and it is', d)
