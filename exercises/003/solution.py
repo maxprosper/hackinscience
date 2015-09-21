@@ -5,4 +5,4 @@
 Ceci est un script temporaire.
 """
 
-print("hello world")
+print("Hello World")
