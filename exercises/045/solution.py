@@ -1,2 +1,6 @@
 def sqrt(a):
-    print(a ** (0.5))
+    b = a ** (0.5)
+    if b == 0:
+        print("None")
+    else:
+        print(b)
