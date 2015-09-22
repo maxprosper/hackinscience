@@ -1,3 +1,4 @@
 import sys
+list = []
 for i in enumerate(sys.argv):
-    print(i)
+    print(str(i[0] ) +' ' + i[1])
