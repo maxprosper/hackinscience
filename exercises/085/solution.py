@@ -16,13 +16,13 @@ def sort_by_name(e):
 
 
 g = [[85, 'Susan Maddox'],
- [84, 'Joseph Pedersen'],
- [42, 'Lidia Robel'],
- [37, 'Jeanette Wafer'],
- [36, 'John Freeman'],
- [27, 'Betty Askins'],
- [22, 'Mark Osbourne'],
- [12, 'Bonnie Torres'],
- [6, 'Joshua Tran']]
+[84, 'Joseph Pedersen'],
+[42, 'Lidia Robel'],
+[37, 'Jeanette Wafer'],
+[36, 'John Freeman'],
+[27, 'Betty Askins'],
+[22, 'Mark Osbourne'],
+[12, 'Bonnie Torres'],
+[6, 'Joshua Tran']]
 
 sort_by_name(g)
