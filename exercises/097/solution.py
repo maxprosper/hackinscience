@@ -7,6 +7,7 @@ def love_meet(a, b):
     z = set(list)
     print(z)
 
+
 def affair_meet(a, b, c):
     list = []
     for i in b:
@@ -16,8 +17,8 @@ def affair_meet(a, b, c):
                     list.append(i)
     z = set(list)
     print(z)
-    
-    
+
+
 alice = ['II', 'IV', 'II', 'XIX', 'XV', 'IV', 'II']
 bob = ['IV', 'III', 'II', 'XX', 'II', 'XX']
 silvester = ['XVIII', 'XIX', 'III', 'I', 'III', 'XVIII']
