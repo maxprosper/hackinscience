@@ -7,7 +7,19 @@ def love_meet(a, b):
     z = set(list)
     print(z)
 
+def affair_meet(a, b, c):
+    list = []
+    for i in b:
+        if i in c:
+            if i not in list:
+                if i not in a:
+                    list.append(i)
+    z = set(list)
+    print(z)
+    
+    
 alice = ['II', 'IV', 'II', 'XIX', 'XV', 'IV', 'II']
 bob = ['IV', 'III', 'II', 'XX', 'II', 'XX']
+silvester = ['XVIII', 'XIX', 'III', 'I', 'III', 'XVIII']
 
-love_meet(bob, alice)
+affair_meet(bob, alice, silvester)
