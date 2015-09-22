@@ -24,6 +24,5 @@ g = [[85, 'Susan Maddox'],
  [22, 'Mark Osbourne'],
  [12, 'Bonnie Torres'],
  [6, 'Joshua Tran']]
- 
+
 sort_by_name(g)
- 
