@@ -1,4 +1,4 @@
-def sort_a_list(a):    
+def sort_a_list(a):
     b = sorted(a, reverse=True)
     print(b)
 def sort_by_mark(c):
