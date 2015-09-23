@@ -6,7 +6,6 @@ def check_my_city(z):
          'number': 31705, 'latitude': 48.8645278209514, 'city': 'BAGNOLET-',
          'name': 'CHAMPEAUX (BAGNOLET)-',
          'longitude': 2.416170724425901},
-
         {'address': ("52 RUE D'ENGHIEN / ANGLE RUE DU FAUBOURG POISSONIERE",
                      "- 75010 PARIS"),
          'zip': '75010-',
@@ -31,19 +30,18 @@ def check_my_city(z):
          'city': 'PANTIN-',
          'name': 'DE GAULLE (PANTIN)-',
          'longitude': 2.412715733388685}]
-    list = []
-    y = z.upper()
-    f = z.lower()
-    w = y + "-"
-    a = 0
-    b = []
+    reponse = []
+    upz = z.upper()
+    loz = z.lower()
+    CITY = upz + "-"
+    nombrestation = 0
+    ZIPCODE = []
     for station in velib:
-        if w in station['city']:
-            a = a + 1
+        if CITY in station['city']:
+            nombrestation = nombrestation + 1
             d = station['zip'].replace("-", "")
-            b.append(d)
-            list = {"stations_nb": a, "zip_code": b, "city": f}
-            return(list)
-        if a == 0:
-            return("Sorry! No station for your city has been found!")
-print(check_my_city("LILLE"))
+            ZIPCODE.append(d)
+            reponse = {"stations_nb": nombrestation, "zip_code": ZIPCODE, "city": loz}
+    if nombrestation == 0:
+        return("Sorry! No station for your city has been found!")
+    return(reponse)        
