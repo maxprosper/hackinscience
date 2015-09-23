@@ -1,4 +1,6 @@
 import sys
+
+
 def is_digit(a):
     if a in ["1", "2", "3", "4", "5", "6", "7", "8", "9"]:
         return(True)
@@ -8,7 +10,7 @@ def is_digit(a):
 
 def is_numeric(b):
     for i in range(0, len(b)):
-        if is_digit(b[i]) == False:
+        if is_digit(b[i]) is False:
             return(False)
     return(True)
 
@@ -44,4 +46,3 @@ if len(sys.argv) == 4:
         print("input error")
 else:
     print("usage: ./solution.py a_number (an_operator +-*/%^) a_number")
-
