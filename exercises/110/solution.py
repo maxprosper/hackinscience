@@ -27,17 +27,23 @@ if len(sys.argv) == 4:
         if is_numeric(sys.argv[3]) is True:
             if is_operator(sys.argv[2]) is True:
                 if sys.argv[2] == "+":
-                    print(float(sys.argv[1]) + float(sys.argv[3]))
+                    plus = float(sys.argv[1]) + float(sys.argv[3])
+                    print(int(plus))
                 if sys.argv[2] == "-":
-                    print(float(sys.argv[1]) - float(sys.argv[3]))
+                    minus = (float(sys.argv[1]) - float(sys.argv[3]))
+                    print(int(minus))
                 if sys.argv[2] == "*":
-                    print(float(sys.argv[1]) * float(sys.argv[3]))
+                    multiply = float(sys.argv[1]) * float(sys.argv[3])
+                    print(int(multiply))
                 if sys.argv[2] == "/":
-                    print(float(sys.argv[1]) / float(sys.argv[3]))
+                    divide = float(sys.argv[1]) / float(sys.argv[3])
+                    print(int(divide))
                 if sys.argv[2] == "^":
-                    print(float(sys.argv[1]) ** float(sys.argv[3]))
+                    power = float(sys.argv[1]) ** float(sys.argv[3])
+                    print(int(power))
                 if sys.argv[2] == "%":
-                    print(float(sys.argv[1]) % float(sys.argv[3]))
+                    modulo = float(sys.argv[1]) % float(sys.argv[3])
+                    print(int(modulo))
             else:
                 print("input error")
         else:
