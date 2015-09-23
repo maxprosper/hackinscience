@@ -4,4 +4,3 @@ def is_prime(a):
             return(False)
         else:
             return(True)
-is_prime(2)
