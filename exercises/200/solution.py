@@ -1,4 +1,6 @@
 def is_prime(a):
+    if a == 1:
+        return False
     if a == 2:
         return True
     else:
