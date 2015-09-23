@@ -42,7 +42,7 @@ def check_my_city(z):
             a = a + 1
             d = station['zip'].replace("-", "")
             b.append(d)
-            list = {"station_nb": a, "zip_code": b, "city": f}
+            list = {"stations_nb": a, "zip_code": b, "city": f}
             return(list)
         if a == 0:
             return("Sorry! No station for your city has been found!")
