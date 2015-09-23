@@ -12,5 +12,3 @@ def is_prime(a):
             return False
         else:
             return True
-
-print(is_prime(9))
