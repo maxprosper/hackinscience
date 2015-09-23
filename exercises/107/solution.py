@@ -1,4 +1,4 @@
-def select_student(z,g):
+def select_student(z, g):
     accepted = []
     refused = []
     for i in range(0, len(z)):
