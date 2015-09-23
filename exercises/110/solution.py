@@ -23,9 +23,9 @@ def is_operator(c):
 
 
 if len(sys.argv) == 4:
-    if is_numeric(sys.argv[1]) == True:
-        if is_numeric(sys.argv[3]) == True:
-            if is_operator(sys.argv[2]) == True:
+    if is_numeric(sys.argv[1]) is True:
+        if is_numeric(sys.argv[3]) is True:
+            if is_operator(sys.argv[2]) is True:
                 if sys.argv[2] == "+":
                     print(float(sys.argv[1]) + float(sys.argv[3]))
                 if sys.argv[2] == "-":
