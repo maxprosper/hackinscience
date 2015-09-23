@@ -39,7 +39,7 @@ def check_my_city(z):
     b = []
     for station in velib:
         if w in station['city']:
-            a = a + 1 
+            a = a + 1
             d = station['zip'].replace("-", "")
             b.append(d)
             list = {"station_nb": a, "zip_code": b, "city": f}
