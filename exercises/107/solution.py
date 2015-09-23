@@ -10,4 +10,4 @@ def select_student(z, g):
     toto = sorted(accepted, key=lambda w: w[1], reverse=True)
     tutu = sorted(refused, key=lambda w: w[1])
     dico = {'Accepted': toto, 'Refused': tutu}
-    return(print(dico))
+    return(dico)
