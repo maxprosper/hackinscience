@@ -34,14 +34,14 @@ def check_my_city(z):
     upz = z.upper()
     loz = z.lower()
     CITY = upz + "-"
-    nombrestation = 0
+    n = 0
     ZIPCODE = []
     for station in velib:
         if CITY in station['city']:
-            nombrestation = nombrestation + 1
+            n = n + 1
             d = station['zip'].replace("-", "")
             ZIPCODE.append(d)
-            reponse = {"stations_nb": nombrestation, "zip_code": ZIPCODE, "city": loz}
-    if nombrestation == 0:
+            reponse = {"stations_nb": n, "zip_code": ZIPCODE, "city": loz}
+    if n == 0:
         return("Sorry! No station for your city has been found!")
-    return(reponse)        
+    return(reponse)
