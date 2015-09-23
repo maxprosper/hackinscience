@@ -11,7 +11,3 @@ def select_student(z, g):
     tutu = sorted(refused, key=lambda w: w[1])
     dico = {'Accepted': toto, 'Refused': tutu}
     return(print(dico))
-
-my_class = [['Kermit Wade', 27], ['Hattie Schleusner', 67], ['Ben Ball', 5], ['William Lee', 2]]
-
-select_student(my_class, 20)
