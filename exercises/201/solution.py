@@ -1,5 +1,5 @@
 def is_letter(a):
-    if a in ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", 
+    if a in ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
              "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]:
         return(True)
     else:
@@ -11,4 +11,3 @@ def is_alpha(b):
         if is_letter(b[i]) is False:
             return(False)
     return(True)
-
