@@ -1,5 +1,5 @@
 def starts_with(haystack, needle):
-    if len(haystack) != len(needle):
+    if len(haystack) < len(needle):
         return False
     for i in range(0, len(needle) + 1):
         z = 0
