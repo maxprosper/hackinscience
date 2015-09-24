@@ -7,6 +7,7 @@ def is_letter(a):
 
 
 def is_alpha(b):
+    b.lower()
     for i in range(0, len(b)):
         if is_letter(b[i]) is False:
             return(False)
