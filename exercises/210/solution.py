@@ -14,6 +14,6 @@ def is_prime(a):
             return True
 l = 0
 for y in range(0, 1000):
-    if is_prime(y) == True:
+    if is_prime(y) is True:
         l = l + y
 print(l)
