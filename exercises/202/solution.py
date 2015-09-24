@@ -9,4 +9,3 @@ def starts_with(haystack, needle):
             return False
         else:
             return True
-print(starts_with("abc", "abc"))
