@@ -7,4 +7,3 @@ for i in range(0, len(d)):
         a = a + 1
 print(a)
 
-
