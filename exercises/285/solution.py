@@ -4,5 +4,5 @@ try:
     z = r.text
     d = z.split('\n', 1)[0]
     print(d)
-except ConnectionError:
+except requests.exceptions.ConnectionError:
     print("No internet connectivity.")
